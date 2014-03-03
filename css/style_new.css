@@ -38,11 +38,8 @@ body {
 	font-family: 'BWHaasHead', Helvetica;
 	font-size: 1em; /* 16px / 16px */
 	line-height: 1.5em; /* 22px / 16px */
-	background-color:#fff;
-	color:#000;
 	height: 100%;
-	padding-bottom: 100px;
-	height: 100%;
+	margin: auto;
 
 }
 
@@ -121,11 +118,6 @@ input:focus {
 	outline:0;
 	border-bottom: 1px solid #000;
 	background: none;
-}
-
-.images {
-	border-radius: 4px;
-
 }
 
 #logo{
@@ -308,13 +300,15 @@ input:focus {
 	position:relative;
 	overflow: auto;
 }
+
+#container {
+	padding-top: 15px;
+}
 /* header */
 
 .header {
-	top:0;
-	right:0;
 	width: 100%;
-	z-index: 1000;
+	z-index: -1000;
 	padding:15px 0px 15px 0px;
 	background-color: #fff;
 }
@@ -451,19 +445,7 @@ ul  {
 }
 
 .thumb-wrap {
-	padding:5px;
-}
-
-
-.thumb-wrap:hover {
-			opacity: .8;
-	filter:alpha(opacity=70);
-	-webkit-transition: opacity .7s ease-in-out;
-    	-moz-transition: opacity .7s ease-in-out;
-    	-o-transition: opacity .7s ease-in-out;
-    	-ms-transition: opacity .7s ease-in-out;
-    	transition: opacity .7s ease-in-out;
-	
+	padding:0px;
 }
 
 .thumb-title {
@@ -477,9 +459,9 @@ ul  {
 }
 
 .thumb-title a {
-	color:#1a1a1a;
-	background-color:#fff;
-	padding:8px;
+	color:#fff;
+	background-color:#000;
+	padding:13px 13px 13px 0px;
 	width: 100%;
 }
 
